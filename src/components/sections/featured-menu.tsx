@@ -86,10 +86,10 @@ export default function FeaturedMenu() {
                     please email us at{" "}
                     <a
                       data-auto-recognition="true"
-                      href="mailto:reservation@ladongnyc.com"
+                      href="#"
                       className="wixui-rich-text__text"
                     >
-                      reservation@ladongnyc.com
+                      reservation@lubu.com
                     </a>{" "}
                     for assistance.
                   </span>
@@ -108,8 +108,7 @@ export default function FeaturedMenu() {
                     className="wixui-rich-text__text-white"
                   >
                     <a
-                      href="https://www.google.com/maps/place/La+Dong/@40.7377201,-73.9937796,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25915c59b10cd:0x6ec85b3aa4d80c0c!8m2!3d40.7377201!4d-73.9912047!16s%2Fg%2F11lnnq1nqy?entry=ttu&amp;g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D"
-                      target="_blank"
+                      href="#"
                       rel="noreferrer noopener"
                       className="wixui-rich-text__text-white"
                     >
@@ -120,13 +119,13 @@ export default function FeaturedMenu() {
                         }}
                         className="wixui-rich-text__text-white"
                       >
-                        11 E 17th St&nbsp; New York, NY 10003
+                        Mt.Juliet, TN
                       </span>
                     </a>
                   </span>
                 </p>
 
-                <p
+                {/* <p
                   className="font_8 wixui-rich-text__text-white mt-5"
                   style={{
                     fontSize: "16px",
@@ -154,12 +153,12 @@ export default function FeaturedMenu() {
                       </span>
                     </a>
                   </span>
-                </p>
+                </p> */}
 
                 <div id="comp-m2s02ryb5" className="comp-m2s02ryb5 WzbAF8">
                   <a
                     data-testid="linkElement"
-                    href="https://www.instagram.com/ladongnyc/?hl=en"
+                    href="https://www.instagram.com/lubu.kitchen/"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="oRtuWN"
@@ -178,7 +177,7 @@ export default function FeaturedMenu() {
                   </a>
                   <a
                     data-testid="linkElement"
-                    href="https://www.facebook.com/profile.php?id=61566060809521"
+                    href="https://www.facebook.com/profile.php?id=61583086821764"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="oRtuWN"
@@ -310,7 +309,7 @@ export default function FeaturedMenu() {
             style={{
               width: 72,
               height: 63,
-            }}    
+            }}
           >
             <Image
               loading="lazy"

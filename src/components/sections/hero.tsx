@@ -26,12 +26,12 @@ export default function Hero() {
           viewport={{ once: true }}
           transition={{ duration: 0.4 }}
         >
-          <div className="grid h-auto min-h-0 grid-rows-3 grid-cols-1 p-10 pb-25 pt-5 max-w-[930px] mx-auto">
+          <div className="grid h-auto min-h-0 grid-rows-3 grid-cols-1 p-0 md:p-10 pb-25 pt-5 max-w-[930px] mx-auto">
             <div className="grid grid-cols-3 items-start">
               <div></div>
               <div></div>
               <div className="flex justify-end">
-                <Image
+                {/* <Image
                   fetchPriority="high"
                   sizes="72px"
                   id="img_comp-mb06lmxx"
@@ -41,11 +41,11 @@ export default function Hero() {
                   className="BI8PVQ Tj01hh"
                   width={72}
                   height={72}
-                />
+                /> */}
               </div>
             </div>
 
-            <div className="flex justify-center items-start w-[399px] h-[168px] mx-auto">
+            <div className="flex justify-center items-start w-[150px] md:w-[399px] h-[168px] mx-auto">
               <Image
                 fetchPriority="high"
                 id="img_comp-m26q60qa"
@@ -67,8 +67,7 @@ export default function Hero() {
               >
                 <a
                   data-testid="linkElement"
-                  href="https://www.ladongnyc.com/_files/ugd/511aa7_925b41efd9184078b530bcd83ce29175.pdf"
-                  target="_blank"
+                  href="#"
                   className="hero-button-item wixui-button"
                   aria-label="MENU"
                 >
@@ -90,8 +89,7 @@ export default function Hero() {
               >
                 <a
                   data-testid="linkElement"
-                  href="https://order.online/store/-32208243?hideModal=true"
-                  target="_blank"
+                  href="#"
                   rel="noreferrer noopener"
                   className="hero-button-item wixui-button"
                   aria-label="ORDER ONLINE"
@@ -114,8 +112,7 @@ export default function Hero() {
               >
                 <a
                   data-testid="linkElement"
-                  href="https://www.toasttab.com/la-dong-11-e17th-st/giftcards"
-                  target="_blank"
+                  href="#"
                   rel="noreferrer noopener"
                   className="hero-button-item wixui-button"
                   aria-label="eGIFT CARD"
@@ -138,8 +135,7 @@ export default function Hero() {
               >
                 <a
                   data-testid="linkElement"
-                  href="https://www.opentable.com/r/la-dong-reservations-new-york?restref=1390435&amp;lang=en-US&amp;ot_source=Restaurant%20website"
-                  target="_blank"
+                  href="#"
                   rel="noreferrer noopener"
                   className="hero-button-item wixui-button"
                   aria-label="RESERVATION"

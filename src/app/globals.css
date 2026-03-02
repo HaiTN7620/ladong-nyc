@@ -216,6 +216,18 @@ body {
   text-shadow: none;
 }
 
+@media (max-width: 430px) {
+  .hero-button {
+    width: 150px;
+    height: 40px;
+  }
+
+  .hero-button-item__label {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+  }
+}
+
 .font_9 {
   font: var(--font_9);
   color: rgb(var(--color_15));
@@ -251,7 +263,7 @@ body {
   padding: 0 25px;
 }
 
-/* CONTRACT CSS */
+/* GALLERY CSS */
 .wixui-rich-text__text {
     font-size: 16px;
     color: #fafaf9;

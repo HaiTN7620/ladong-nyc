@@ -68,7 +68,7 @@ export default function Intro() {
 
                 {/* Text Overlay Uper Video` */}
                 <div className="absolute inset-0 bottom-0 flex flex-col items-center justify-end text-center pb-5">
-                  <div className="mb-5 flex items-center justify-center">
+                  {/* <div className="mb-5 flex items-center justify-center">
                     <Image
                       src="/images/michelin-2025.png"
                       alt="MICHELIN 2025 Selected"
@@ -76,7 +76,7 @@ export default function Intro() {
                       height={72}
                       priority
                     />
-                  </div>
+                  </div> */}
                   <div
                     id="comp-m26pfxo1"
                     className="mb-4 ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-m26pfxo1 wixui-rich-text"
