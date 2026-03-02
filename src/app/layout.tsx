@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "La Dong | Vietnamese Food in Union square | New York",
-  description: `La Dong, We are serving Modern Vietnamese Food in an Asian Colonial house setting near Union square.
+  title: "LUBU | Vietnamese Food in Union square | New York",
+  description: `LUBU, We are serving Modern Vietnamese Food in an Asian Colonial house setting near Union square.
 Not only you will get to experience our recipe from North to South but also see how far the food has traveled along the Mekong River.
 Ms. Đồng welcomes you to her house in the middle of New York City where &quot;Hospitality is our Currency.&quot;`,
 };

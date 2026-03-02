@@ -6,29 +6,22 @@ export default function FeaturedMenu() {
       <div className="comp-m2t6brbrbg" style={{ backgroundColor: "#000" }}>
         <div
           id="#comp-m2t6brbr "
-          className="max-w-[930px] mx-auto px-4"
+          className="max-w-[1197px] mx-auto"
           style={{
-            minWidth: "1197px",
             margin: "0px auto",
-            height: "971px",
             paddingBottom: 20,
           }}
         >
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
             <div
-              className="col-span-1 flex flex-col items-start text-left py-20"
+              className="col-span-1 flex flex-col items-start text-left py-10 px-7"
               style={{
                 backgroundImage: `url("https://static.wixstatic.com/media/511aa7_5ca85a2ed86f4a20aa7c58c509a02096~mv2.jpg")`,
-                height: "971px",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
             >
-              <div
-                style={{
-                  padding: 80,
-                }}
-              >
+              <div>
                 <p
                   style={{
                     lineHeight: 1.4,
@@ -65,7 +58,7 @@ export default function FeaturedMenu() {
                     className="wixui-rich-text__text"
                     style={{ backgroundColor: "#8B0000" }}
                   >
-                    LA DONG, we kindly request the following dining times:
+                    LUBU, we kindly request the following dining times:
                   </span>
                 </p>
                 <ul className="list-disc list-inside">
@@ -206,14 +199,12 @@ export default function FeaturedMenu() {
               </div>
             </div>
             <div
-              className="col-span-1 flex flex-col items-start text-left py-20"
+              className="col-span-1 flex flex-col items-start text-left py-10 px-7 md:border-l md:border-l-[0.5px] md:border-l-[#f5f0e6]"
               style={{
                 backgroundImage: `url("https://static.wixstatic.com/media/511aa7_d81bfa371b034e6ba18e71ad5ee64cba~mv2.jpg")`,
-                height: "971px",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-                padding: 80,
-                borderLeft: "0.5px solid #f5f0e6",
+                // borderLeft: "0.5px solid #f5f0e6",
               }}
             >
               {/* Form đăng ký nhận tin tức và ưu đãi đặc biệt */}
@@ -289,10 +280,10 @@ export default function FeaturedMenu() {
                     type="submit"
                     style={{
                       backgroundColor: "rgb(143, 15, 9)",
-                      fontSize: "24px",
+                      fontSize: "20px",
                       boxShadow: "0 1px 4px rgba(0, 0, 0, .6)",
                     }}
-                    className="w-full px-8 py-4 bg-[#7a1818] text-white font-bold text-lg tracking-wider uppercase shadow-md hover:bg-[#5a1212] transition-colors mt-2"
+                    className="rounded w-full px-4 py-1 bg-[#7a1818] text-white font-bold text-lg tracking-wider uppercase shadow-md hover:bg-[#5a1212] transition-colors mt-2"
                   >
                     SUBMIT FORM
                   </button>
@@ -319,15 +310,15 @@ export default function FeaturedMenu() {
             style={{
               width: 72,
               height: 63,
-            }}
+            }}    
           >
             <Image
               loading="lazy"
               id="img_comp-m2tj2ier"
-              src="https://static.wixstatic.com/media/511aa7_ae6a7d834ff74cf6903468e1a7d43b89~mv2.png"
-              alt="La Dong Logo"
+              src="/images/logo.jpg"
+              alt="LUBU Logo"
               style={{ objectFit: "cover" }}
-              className="BI8PVQ Tj01hh"
+              className="BI8PVQ Tj01hh rounded-full"
               width={72}
               height={63}
             />

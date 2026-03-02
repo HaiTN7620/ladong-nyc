@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="inline-block bg-ladong-cream rounded-full p-6">
             <Image
               src="https://static.wixstatic.com/media/511aa7_b91d43a7d08e4e50909527aefbbd2e55~mv2.png"
-              alt="La Dong Logo"
+              alt="LUBU Logo"
               width={80}
               height={80}
               className="object-contain"
@@ -53,7 +53,7 @@ export default function Footer() {
           </div>
 
           {/* Copyright */}
-          <p className="text-white text-sm mt-4">© {new Date().getFullYear()} La Dong NYC</p>
+          <p className="text-white text-sm mt-4">© {new Date().getFullYear()} LUBU NYC</p>
         </div>
       </Container>
     </footer>

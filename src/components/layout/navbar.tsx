@@ -25,7 +25,7 @@ export default function Navbar() {
       <Container>
         <div className="flex justify-between py-4">
           <Link href="/" className="font-serif text-xl">
-            LA DONG
+            LUBU
           </Link>
 
           <nav className="flex gap-6">
